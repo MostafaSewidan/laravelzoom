@@ -1,6 +1,6 @@
 <?php
 
-namespace MostafaSewidan\Zoom\Support;
+namespace MacsiDigital\Zoom\Support;
 
 use Illuminate\Http\Client\Factory;
 

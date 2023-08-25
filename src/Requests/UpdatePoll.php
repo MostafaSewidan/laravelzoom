@@ -1,8 +1,8 @@
 <?php
 
-namespace MostafaSewidan\Zoom\Requests;
+namespace MacsiDigital\Zoom\Requests;
 
-use MostafaSewidan\API\Support\PersistResource;
+use MacsiDigital\API\Support\PersistResource;
 
 class UpdatePoll extends PersistResource
 {

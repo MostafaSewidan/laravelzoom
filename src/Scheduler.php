@@ -1,13 +1,13 @@
 <?php
 
-namespace MostafaSewidan\Zoom;
+namespace MacsiDigital\Zoom;
 
-use MostafaSewidan\Zoom\Support\Model;
+use MacsiDigital\Zoom\Support\Model;
 
 class Scheduler extends Model
 {
-    protected $insertResource = 'MostafaSewidan\Zoom\Requests\StoreScheduler';
-    protected $updateResource = 'MostafaSewidan\Zoom\Requests\UpdateScheduler';
+    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreScheduler';
+    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateScheduler';
     
     protected $endPoint = 'users/{user_id}/schedulers';
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace MostafaSewidan\Zoom\Facades;
+namespace MacsiDigital\Zoom\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

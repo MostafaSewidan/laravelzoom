@@ -2,31 +2,31 @@
 
 ## Laravel Zoom API Client
 
-![Header Image](https://github.com/MostafaSewidan/repo-design/raw/master/laravel-zoom/header.png)
+![Header Image](https://github.com/MacsiDigital/repo-design/raw/master/laravel-zoom/header.png)
 
 <p align="center">
- <a href="https://github.com/MostafaSewidan/laravel-zoom/actions?query=workflow%3ATests"><img src="https://github.com/MostafaSewidan/laravel-zoom/workflows/Tests/badge.svg" style="max-width:100%;"  alt="tests badge"></a>
- <a href="https://packagist.org/packages/MostafaSewidan/laravel-zoom"><img src="https://img.shields.io/packagist/v/MostafaSewidan/laravel-zoom.svg?style=flat-square" alt="version badge"/></a>
- <a href="https://packagist.org/packages/MostafaSewidan/laravel-zoom"><img src="https://img.shields.io/packagist/dt/MostafaSewidan/laravel-zoom.svg?style=flat-square" alt="downloads badge"/></a>
+ <a href="https://github.com/MacsiDigital/laravel-zoom/actions?query=workflow%3ATests"><img src="https://github.com/MacsiDigital/laravel-zoom/workflows/Tests/badge.svg" style="max-width:100%;"  alt="tests badge"></a>
+ <a href="https://packagist.org/packages/macsidigital/laravel-zoom"><img src="https://img.shields.io/packagist/v/macsidigital/laravel-zoom.svg?style=flat-square" alt="version badge"/></a>
+ <a href="https://packagist.org/packages/macsidigital/laravel-zoom"><img src="https://img.shields.io/packagist/dt/macsidigital/laravel-zoom.svg?style=flat-square" alt="downloads badge"/></a>
 </p>
 
 Laravel Zoom API Package
 
 ## Support us
 
-We invest a lot in creating [open source packages](https://MostafaSewidan.co.uk/open-source), and would be grateful for a [sponsor](https://github.com/sponsors/MostafaSewidan) if you make money from your product that uses them.
+We invest a lot in creating [open source packages](https://macsidigital.co.uk/open-source), and would be grateful for a [sponsor](https://github.com/sponsors/MacsiDigital) if you make money from your product that uses them.
 
 ## Our API mission!
 
-Let's be honest, API's are all over the place and so inconsistent.  We are therefore setting out to try to change this for all Laravel user's who need an API client and have developed an [API Client Library](https://github.com/MostafaSewidan/laravel-api-client), which our API's are built on top of, to give a common set of consistent functionality.
+Let's be honest, API's are all over the place and so inconsistent.  We are therefore setting out to try to change this for all Laravel user's who need an API client and have developed an [API Client Library](https://github.com/MacsiDigital/laravel-api-client), which our API's are built on top of, to give a common set of consistent functionality.
 
 ## Updates & Issues
 
-We only accept Issues through [Github](https://github.com/MostafaSewidan/laravel-zoom)
+We only accept Issues through [Github](https://github.com/MacsiDigital/laravel-zoom)
 
 We update security and bug fixes as soon as we can, other pull requests and enhancements will be as and when we can do them.
 
-You can follow us on Twitter where we will post any major updates. [MostafaSewidan Twitter](https://twitter.com/MostafaSewidan)
+You can follow us on Twitter where we will post any major updates. [MacsiDigital Twitter](https://twitter.com/MacsiDigital)
 
 ## Installation
 
@@ -51,7 +51,7 @@ For versioning:-
 Publish the configuration file
 
 ```bash
-php artisan vendor:publish --provider="MostafaSewidan\Zoom\Providers\ZoomServiceProvider"
+php artisan vendor:publish --provider="MacsiDigital\Zoom\Providers\ZoomServiceProvider"
 ```
 
 This will create a zoom.php config file within your config directory:-
@@ -110,14 +110,14 @@ There are 2 main ways to work with models, to call them directly from the access
 
     //or
     
-    $zoom = new \MostafaSewidan\Zoom\Support\Entry;
-    $user = new \MostafaSewidan\Zoom\User($zoom);
+    $zoom = new \MacsiDigital\Zoom\Support\Entry;
+    $user = new \MacsiDigital\Zoom\User($zoom);
 ```
 
 ### Custom settings
-If you would like to use different configuration values than those in your zoom.php config file, you can feed those as parameters to \MostafaSewidan\Zoom\Support\Entry as shown below.
+If you would like to use different configuration values than those in your zoom.php config file, you can feed those as parameters to \MacsiDigital\Zoom\Support\Entry as shown below.
 ``` php
-    $zoom = new \MostafaSewidan\Zoom\Support\Entry($apiKey, $apiSecret, $tokenLife, $maxQueries, $baseUrl);
+    $zoom = new \MacsiDigital\Zoom\Support\Entry($apiKey, $apiSecret, $tokenLife, $maxQueries, $baseUrl);
 ```
 
 ### Working with models
@@ -866,7 +866,7 @@ If you discover any security-related issues, please email [info@macsi.co.uk](mai
 ## Credits
 
 - [Colin Hall](https://github.com/colinhall17)
-- [MostafaSewidan](https://github.com/MostafaSewidan)
+- [MacsiDigital](https://github.com/MacsiDigital)
 - [All Contributors](../../contributors)
 
 ## License

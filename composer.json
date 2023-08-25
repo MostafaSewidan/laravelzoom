@@ -2,7 +2,7 @@
     "name": "mostafasewidan/laravel-zoom",
     "description": "Laravel Zoom package",
     "homepage": "https://github.com/MostafaSewidan/laravelzoom",
-    "keywords": ["MostafaSewidan", "laravel-zoom", "zoom", "laravel", "api", "client"],
+    "keywords": ["macsidigital", "laravel-zoom", "zoom", "laravel", "api", "client"],
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -15,7 +15,7 @@
     "require": {
         "php": "^7.3|^8.0|^8.1",
         "illuminate/support": "^7.0|^8.0|^9.0",
-        "MostafaSewidan/laravel-api-client": "^3.3|^4.0.2"
+        "macsidigital/laravel-api-client": "^3.3|^4.0.2"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MostafaSewidan\\Zoom\\": "src"
+            "MacsiDigital\\Zoom\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MostafaSewidan\\Zoom\\Tests\\": "tests"
+            "MacsiDigital\\Zoom\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MostafaSewidan\\Zoom\\Providers\\ZoomServiceProvider"
+                "MacsiDigital\\Zoom\\Providers\\ZoomServiceProvider"
             ],
             "aliases": {
-                "Zoom": "MostafaSewidan\\Zoom\\Facades\\Zoom"
+                "Zoom": "MacsiDigital\\Zoom\\Facades\\Zoom"
             }
         }
     },

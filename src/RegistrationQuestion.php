@@ -1,12 +1,12 @@
 <?php
 
-namespace MostafaSewidan\Zoom;
+namespace MacsiDigital\Zoom;
 
-use MostafaSewidan\Zoom\Support\Model;
+use MacsiDigital\Zoom\Support\Model;
 
 class RegistrationQuestion extends Model
 {
-    protected $insertResource = 'MostafaSewidan\Zoom\Requests\UpdateRegistrationQuestion';
+    protected $insertResource = 'MacsiDigital\Zoom\Requests\UpdateRegistrationQuestion';
 
     protected $endPoint = 'meetings/{meeting:id}/registrants/questions';
 

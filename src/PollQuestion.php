@@ -1,8 +1,8 @@
 <?php
 
-namespace MostafaSewidan\Zoom;
+namespace MacsiDigital\Zoom;
 
-use MostafaSewidan\API\Support\Resource;
+use MacsiDigital\API\Support\Resource;
 
 class PollQuestion extends Resource
 {

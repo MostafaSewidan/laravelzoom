@@ -1,8 +1,8 @@
 <?php
 
-namespace MostafaSewidan\Zoom\Contracts;
+namespace MacsiDigital\Zoom\Contracts;
 
-use MostafaSewidan\API\Facades\Client as ClientFacade;
+use MacsiDigital\API\Facades\Client as ClientFacade;
 
 interface Zoom extends ClientFacade
 {

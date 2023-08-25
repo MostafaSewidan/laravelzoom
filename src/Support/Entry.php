@@ -1,15 +1,15 @@
 <?php
 
-namespace MostafaSewidan\Zoom\Support;
+namespace MacsiDigital\Zoom\Support;
 
-use MostafaSewidan\API\Support\Authentication\JWT;
-use MostafaSewidan\API\Support\Entry as ApiEntry;
-use MostafaSewidan\Zoom\Facades\Client;
+use MacsiDigital\API\Support\Authentication\JWT;
+use MacsiDigital\API\Support\Entry as ApiEntry;
+use MacsiDigital\Zoom\Facades\Client;
 use GuzzleHttp\Client as GuzzleClient;
 
 class Entry extends ApiEntry
 {
-    protected $modelNamespace = '\MostafaSewidan\Zoom\\';
+    protected $modelNamespace = '\MacsiDigital\Zoom\\';
 
     protected $pageField = 'page_number';
 
