@@ -1,7 +1,7 @@
 {
-    "name": "macsidigital/laravel-zoom",
+    "name": "mostafasewidan/laravel-zoom",
     "description": "Laravel Zoom package",
-    "homepage": "https://github.com/MacsiDigital/laravel-zoom",
+    "homepage": "https://github.com/MostafaSewidan/laravelzoom",
     "keywords": ["macsidigital", "laravel-zoom", "zoom", "laravel", "api", "client"],
     "license": "MIT",
     "type": "library",
