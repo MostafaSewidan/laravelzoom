@@ -1,8 +1,8 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\Zoom\Support\Resource;
+use MostafaSewidan\Zoom\Support\Resource;
 
 class LiveStreamStatusSetting extends Resource
 {

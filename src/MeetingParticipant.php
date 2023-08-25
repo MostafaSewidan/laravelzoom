@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use MostafaSewidan\Zoom\Support\Model;
 
 class MeetingParticipant extends Model
 {
-    //protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreRegistrant';
+    //protected $insertResource = 'MostafaSewidan\Zoom\Requests\StoreRegistrant';
 
     protected $endPoint = '/metrics/meetings/{meeting:id}/participants';
 

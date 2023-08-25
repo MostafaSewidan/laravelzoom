@@ -1,8 +1,8 @@
 <?php
 
-namespace MacsiDigital\Zoom\Requests;
+namespace MostafaSewidan\Zoom\Requests;
 
-use MacsiDigital\API\Support\PersistResource;
+use MostafaSewidan\API\Support\PersistResource;
 
 class StoreRegistrant extends PersistResource
 {

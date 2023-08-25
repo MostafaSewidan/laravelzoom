@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use MostafaSewidan\Zoom\Support\Model;
 
 class Panelist extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StorePanelist';
+    protected $insertResource = 'MostafaSewidan\Zoom\Requests\StorePanelist';
 
     protected $endPoint = 'webinars/{webinar:id}/panelists';
 

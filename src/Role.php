@@ -1,13 +1,13 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use MostafaSewidan\Zoom\Support\Model;
 
 class Role extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreRole';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateRole';
+    protected $insertResource = 'MostafaSewidan\Zoom\Requests\StoreRole';
+    protected $updateResource = 'MostafaSewidan\Zoom\Requests\UpdateRole';
     
     protected $endPoint = 'roles';
 

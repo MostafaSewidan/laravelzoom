@@ -1,6 +1,6 @@
 <?php
 
-namespace MacsiDigital\Zoom\Exceptions;
+namespace MostafaSewidan\Zoom\Exceptions;
 
 use Exception;
 

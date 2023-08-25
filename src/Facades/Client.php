@@ -1,11 +1,11 @@
 <?php
 
-namespace MacsiDigital\Zoom\Facades;
+namespace MostafaSewidan\Zoom\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Macsidigital\XeroLaravel\Skeleton\SkeletonClass
+ * @see \MostafaSewidan\XeroLaravel\Skeleton\SkeletonClass
  */
 class Client extends Facade
 {

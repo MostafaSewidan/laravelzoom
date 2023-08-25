@@ -1,8 +1,8 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use MostafaSewidan\Zoom\Support\Model;
 
 class MeetingRecording extends Model
 {

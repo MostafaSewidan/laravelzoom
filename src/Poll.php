@@ -1,13 +1,13 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use MostafaSewidan\Zoom\Support\Model;
 
 class Poll extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StorePoll';
-    protected $storeResource = 'MacsiDigital\Zoom\Requests\UpdatePoll';
+    protected $insertResource = 'MostafaSewidan\Zoom\Requests\StorePoll';
+    protected $storeResource = 'MostafaSewidan\Zoom\Requests\UpdatePoll';
 
     protected $endPoint = '/meetings/{meeting:id}/polls';
 

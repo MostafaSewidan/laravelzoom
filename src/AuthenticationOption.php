@@ -1,11 +1,11 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use MostafaSewidan\Zoom\Support\Model;
 
 class AuthenticationOption extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreAuthenticationOption';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateAuthenticationOption';
+    protected $insertResource = 'MostafaSewidan\Zoom\Requests\StoreAuthenticationOption';
+    protected $updateResource = 'MostafaSewidan\Zoom\Requests\UpdateAuthenticationOption';
 }
