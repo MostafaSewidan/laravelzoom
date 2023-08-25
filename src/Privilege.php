@@ -2,7 +2,7 @@
 
 namespace MostafaSewidan\Zoom;
 
-use MostafaSewidan\API\Support\Resource;
+use Macsidigital\API\Support\Resource;
 
 class Privilege extends Resource
 {

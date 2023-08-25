@@ -2,7 +2,7 @@
 
 namespace MostafaSewidan\Zoom\Contracts;
 
-use MostafaSewidan\API\Facades\Client as ClientFacade;
+use Macsidigital\API\Facades\Client as ClientFacade;
 
 interface Zoom extends ClientFacade
 {

@@ -2,8 +2,8 @@
 
 namespace MostafaSewidan\Zoom\Support;
 
-use MostafaSewidan\API\Support\Authentication\JWT;
-use MostafaSewidan\API\Support\Entry as ApiEntry;
+use Macsidigital\API\Support\Authentication\JWT;
+use Macsidigital\API\Support\Entry as ApiEntry;
 use MostafaSewidan\Zoom\Facades\Client;
 use GuzzleHttp\Client as GuzzleClient;
 

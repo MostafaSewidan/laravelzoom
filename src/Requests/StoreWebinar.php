@@ -2,7 +2,7 @@
 
 namespace MostafaSewidan\Zoom\Requests;
 
-use MostafaSewidan\API\Support\PersistResource;
+use Macsidigital\API\Support\PersistResource;
 
 class StoreWebinar extends PersistResource
 {
