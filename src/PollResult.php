@@ -2,7 +2,7 @@
 
 namespace MostafaSewidan\Zoom;
 
-use Macsidigital\API\Support\Resource;
+use MostafaSewidan\API\Support\Resource;
 
 class PollResult extends Resource
 {

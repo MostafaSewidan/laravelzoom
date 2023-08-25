@@ -2,7 +2,7 @@
 
 namespace MostafaSewidan\Zoom\Requests;
 
-use Macsidigital\API\Support\PersistResource;
+use MostafaSewidan\API\Support\PersistResource;
 
 class UpdatePoll extends PersistResource
 {

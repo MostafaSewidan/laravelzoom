@@ -2,7 +2,7 @@
 
 namespace MostafaSewidan\Zoom\Support;
 
-use Macsidigital\API\Support\ApiResource;
+use MostafaSewidan\API\Support\ApiResource;
 
 class Model extends ApiResource
 {
