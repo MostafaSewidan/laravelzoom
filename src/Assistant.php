@@ -1,13 +1,13 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use MostafaSewidan\Zoom\Support\Model;
 
 class Assistant extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreAssistant';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateAssistant';
+    protected $insertResource = 'MostafaSewidan\Zoom\Requests\StoreAssistant';
+    protected $updateResource = 'MostafaSewidan\Zoom\Requests\UpdateAssistant';
     
     protected $endPoint = 'users/{user_id}/assistants';
 

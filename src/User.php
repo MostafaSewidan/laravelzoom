@@ -1,16 +1,16 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
 use Illuminate\Support\Facades\Validator;
-use MacsiDigital\Zoom\Exceptions\FileTooLargeException;
-use MacsiDigital\Zoom\Exceptions\ValidationException;
-use MacsiDigital\Zoom\Support\Model;
+use MostafaSewidan\Zoom\Exceptions\FileTooLargeException;
+use MostafaSewidan\Zoom\Exceptions\ValidationException;
+use MostafaSewidan\Zoom\Support\Model;
 
 class User extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreUser';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateUser';
+    protected $insertResource = 'MostafaSewidan\Zoom\Requests\StoreUser';
+    protected $updateResource = 'MostafaSewidan\Zoom\Requests\UpdateUser';
 
     protected $attributes = [
         'action' => 'create',

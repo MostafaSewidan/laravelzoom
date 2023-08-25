@@ -1,8 +1,8 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\API\Support\Resource;
+use MostafaSewidan\API\Support\Resource;
 
 class CustomQuestion extends Resource
 {

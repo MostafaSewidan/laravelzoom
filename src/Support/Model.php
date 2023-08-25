@@ -1,8 +1,8 @@
 <?php
 
-namespace MacsiDigital\Zoom\Support;
+namespace MostafaSewidan\Zoom\Support;
 
-use MacsiDigital\API\Support\ApiResource;
+use MostafaSewidan\API\Support\ApiResource;
 
 class Model extends ApiResource
 {

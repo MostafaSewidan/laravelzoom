@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use MostafaSewidan\Zoom\Support\Model;
 
 class Setting extends Model
 {
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateSetting';
+    protected $updateResource = 'MostafaSewidan\Zoom\Requests\UpdateSetting';
 
     protected $customEndPoints = [
         'get' => 'users/{user:id}/settings',

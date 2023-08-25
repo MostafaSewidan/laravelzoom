@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use MostafaSewidan\Zoom\Support\Model;
 
 class WebinarOccurrence extends Model
 {
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateOccurrence';
+    protected $updateResource = 'MostafaSewidan\Zoom\Requests\UpdateOccurrence';
 
     protected $endPoint = 'webinars/{webinar:id}';
 

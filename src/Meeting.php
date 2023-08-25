@@ -1,13 +1,13 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use MostafaSewidan\Zoom\Support\Model;
 
 class Meeting extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreMeeting';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateMeeting';
+    protected $insertResource = 'MostafaSewidan\Zoom\Requests\StoreMeeting';
+    protected $updateResource = 'MostafaSewidan\Zoom\Requests\UpdateMeeting';
 
     protected $endPoint = 'meetings';
 

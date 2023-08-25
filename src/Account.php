@@ -1,14 +1,14 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace MostafaSewidan\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use MostafaSewidan\Zoom\Support\Model;
 
 class Account extends Model
 {
     // API included but its not open to the majority of API Users
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreAccount';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateAccount';
+    protected $insertResource = 'MostafaSewidan\Zoom\Requests\StoreAccount';
+    protected $updateResource = 'MostafaSewidan\Zoom\Requests\UpdateAccount';
     
     protected $endPoint = 'accounts';
 
